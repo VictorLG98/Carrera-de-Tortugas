@@ -37,7 +37,7 @@ def place_players(players):
 
 def carrera():
     place_players(players)
-    user_bet = screen.textinput("Haz tu apuesta", prompt="¿Qué tortuga ganará la carrera? Escribe el color: ")
+    user_bet = screen.textinput("Haz tu apuesta!", prompt="¿Qué tortuga ganará la carrera? Escribe el color: ")
     final = False
     while not final:
         for player in players:
